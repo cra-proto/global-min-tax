@@ -154,12 +154,10 @@
         , may have to register and file a return with the Canada Revenue Agency (CRA).</p>
       <h2><strong>On this page</strong></h2>
       <ul>
-        <li><a href="#pllrtw">What is Pillar Two</a></li>
         <li><a href="#gmt">Understand the global minimum tax</a></li>
         <li><a href="#wh_rgstr">Who must register and file</a></li>
         <li><a href="#rgstr">Register with the CRA</a></li>
-        <li><a href="#fl_rtrn">File a GMT return</a></li>
-        <li><a href="#">When to file</a></li>
+          <li><a href="#fl_rtrn">File a GMT return</a></li>
         <li><a href="#cntct">Contact us</a></li>
       </ul>
       
@@ -239,56 +237,58 @@
           </ul>
         </li>
       </ul>
-      <p>
-        <mark>alternatively:</mark>
-      </p>
-      <fieldset class="gc-chckbxrdio">
-        <legend>the UPE, if:</legend>
-        <ul class="list-unstyled">
-          <li class="checkbox gc-chckbxrdio">
-            <input type="checkbox" id="upe3">
-            <label for="upe3">the UPE is located in Canada</label>
-          </li>
-          <li class="checkbox">
-            <input type="checkbox" id="upe4">
-            <label for="upe4">the MNE Group does not have a designated filing entity located in Canada</label>
-          </li>
-        </ul>
-      </fieldset>
-      <fieldset class="gc-chckbxrdio">
-        <legend>the DFE, if:</legend>
-        <ul class="list-unstyled">
-          <li class="checkbox">
-            <input type="checkbox" id="dfe2">
-            <label for="dfe2">it is located in Canada
-              <mark>, or</mark>
-            </label>
-          </li>
-        </ul>
-      </fieldset>
-      <fieldset class="gc-chckbxrdio">
-        <legend>the DFE, if:</legend>
-        <ul class="list-unstyled">
-          <li class="checkbox">
-            <input type="checkbox" id="cnsttnt8">
-            <label for="cnsttnt8">there is no UPE or DFE located in Canada</label>
-          </li>
-          <li class="checkbox">
-            <input type="checkbox" id="cnsttnt5">
-            <label for="cnsttnt5">there is no UPE or DFE outside Canada that filed the GIR with the CRA</label>
-          </li>
-          <li class="checkbox">
-            <input type="checkbox" id="cnsttnt6">
-            <label for="cnsttnt6">there is no qualifying foreign filing entity (QFFE)
-              <mark>Introduce this above?</mark>
-            </label>
-          </li>
-          <li class="checkbox">
-            <input type="checkbox" id="cnsttnt7">
-            <label for="cnsttnt7">there is a QFFE, but the CRA notifies the constituent entities that it has not received the GIR from the QFFE's jurisdiction</label>
-          </li>
-        </ul>
-      </fieldset>
+      <div class="well">
+        <p>
+          <mark>alternatively:</mark>
+        </p>
+        <fieldset class="gc-chckbxrdio">
+          <legend>the UPE, if:</legend>
+          <ul class="list-unstyled">
+            <li class="checkbox gc-chckbxrdio">
+              <input type="checkbox" id="upe3">
+              <label for="upe3">the UPE is located in Canada</label>
+            </li>
+            <li class="checkbox">
+              <input type="checkbox" id="upe4">
+              <label for="upe4">the MNE Group does not have a designated filing entity located in Canada</label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset class="gc-chckbxrdio">
+          <legend>the DFE, if:</legend>
+          <ul class="list-unstyled">
+            <li class="checkbox">
+              <input type="checkbox" id="dfe2">
+              <label for="dfe2">it is located in Canada
+                <mark>, or</mark>
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset class="gc-chckbxrdio">
+          <legend>the DFE, if:</legend>
+          <ul class="list-unstyled">
+            <li class="checkbox">
+              <input type="checkbox" id="cnsttnt8">
+              <label for="cnsttnt8">there is no UPE or DFE located in Canada</label>
+            </li>
+            <li class="checkbox">
+              <input type="checkbox" id="cnsttnt5">
+              <label for="cnsttnt5">there is no UPE or DFE outside Canada that filed the GIR with the CRA</label>
+            </li>
+            <li class="checkbox">
+              <input type="checkbox" id="cnsttnt6">
+              <label for="cnsttnt6">there is no qualifying foreign filing entity (QFFE)
+                <mark>Introduce this above?</mark>
+              </label>
+            </li>
+            <li class="checkbox">
+              <input type="checkbox" id="cnsttnt7">
+              <label for="cnsttnt7">there is a QFFE, but the CRA notifies the constituent entities that it has not received the GIR from the QFFE's jurisdiction</label>
+            </li>
+          </ul>
+        </fieldset>
+      </div>
       <h3>Who must file a GMT return </h3>
       <p>A person that is liable to pay tax under Part 2 or Part 3 of the&nbsp;Act must file a Part 2 or a Part 3 GMT return with the CRA.</p>
       <h3>Who must file a GMT notification form </h3>
@@ -339,10 +339,8 @@
             <p>18 months after the last day of the fiscal year, if it is the first fiscal year that an entity of the qualifying MNE groups is subject to:</p>
             <ul>
               <li>Part 3 of the&nbsp;Act</li>
-              <li>a qualified IIR</li>
-              <li>a qualified UTPR
-                <mark>(not defined)</mark>
-              </li>
+              <li>a <a class="wb-lbx" role="button" aria-controls="iir" href="#iir">qualified <span class="nowrap">IIR<span class="mrgn-lft-sm far fa-question-circle"></span></span></a></li>
+              <li>a <a class="wb-lbx" role="button" aria-controls="utpr" href="#utpr">qualified <span class="nowrap">UTPR<span class="mrgn-lft-sm far fa-question-circle"></span></span></a></li>
             </ul>
           </li>
           <li class="cnjnctn-col-30">
@@ -351,7 +349,7 @@
         </ul>
       </div>
       <div class="clearfix mrgn-tp-lg"></div>
-      <p>The tax generally applies to <a class="wb-lbx" role="button" aria-controls="Y" href="#Y">foreign <span class="nowrap">national<span class="mrgn-lft-sm far fa-question-circle"></span></span></a> owners of housing in Canada. However, in some situations, this tax also applies to some Canadian owners (such as certain partners, trustees, and corporations).</p>  
+      <p>The tax generally applies to <a class="wb-lbx" role="button" aria-controls="Y" href="#Y">foreign <span class="nowrap">national<span class="mrgn-lft-sm far fa-question-circle"></span></span></a> owners of housing in Canada. However, in some situations, this tax also applies to some Canadian owners (such as certain partners, trustees, and corporations).</p>
       <!-- Contact  -->
       <h2 id="cntct">Contact us</h2>
       <p>Contact the CRA if you have a general question about the global minimum tax or if you would like to ask for a technical interpretation related to the&nbsp;Act.</p>
@@ -367,7 +365,7 @@
       <h2 class="modal-title">A qualified IIR</h2>
     </header>
     <div class="modal-body">
-        <p>A qualified IIR, for a fiscal year, means an IIR that has qualified status (including transitional qualified status) for the fiscal year as determined by the Inclusive Framework and published on the website of the OECD. (RDIR admissible)</p>
+      <p>A qualified IIR, for a fiscal year, means an IIR that has qualified status (including transitional qualified status) for the fiscal year as determined by the Inclusive Framework and published on the website of the OECD. (RDIR admissible)</p>
     </div>
   </section>
   <section id="utpr" class="mfp-hide modal-dialog modal-content overlay-def">
@@ -375,7 +373,7 @@
       <h2 class="modal-title">A qualified UTPR</h2>
     </header>
     <div class="modal-body">
-        <p>A qualified UTPR, for a fiscal year, means a UTPR that has qualified status (including transitional qualified status) for the fiscal year as determined by the Inclusive Framework and published on the website of the OECD. (RPII admissible)</p>
+      <p>A qualified UTPR, for a fiscal year, means a UTPR that has qualified status (including transitional qualified status) for the fiscal year as determined by the Inclusive Framework and published on the website of the OECD. (RPII admissible)</p>
     </div>
   </section>
   <section class="pagedetails">
